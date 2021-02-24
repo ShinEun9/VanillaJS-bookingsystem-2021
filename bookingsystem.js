@@ -1,5 +1,5 @@
 const seats = document.querySelectorAll(".seat");
-const button = document.querySelector("button");
+const button = document.querySelector(".booking-btn");
 let selectingSeats = [];
 let selectingSeats2 = [];
 let selectedSeats = [];
