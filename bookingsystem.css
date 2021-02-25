@@ -19,7 +19,7 @@ body {
 .movie__column:first-child {
   margin-right: 20px;
 }
-.movie__poster {
+.movie-poster {
   width: 350px;
   height: 500px;
   border-radius: 30px;
@@ -144,12 +144,15 @@ select {
   background-color: #c12a21;
 }
 
-.selected {
+.selected,
+.click-impossible {
   cursor: unset;
   background-color: #d1d2d3;
 }
-.selected:hover {
+.selected:hover,
+.click-impossible:hover {
   transform: none;
+  cursor: unset;
 }
 
 .price-expression {
